@@ -1,0 +1,222 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.image{
+	border-radius:90%;
+	border: solid ;
+	width:100px;
+	height:100px;
+	box-sizing:border-box;
+}
+.image img{
+	height:95px;
+	width:95px;
+	border-radius:50%;
+	margin:0px;
+	box-sizing:border-box;
+}
+.head-info{
+	border-bottom:2px solid grey;
+	padding:5px;
+}
+.profile{
+	display:flex;
+
+}
+.top{
+	justify-content:space-between;
+	padding:20px 15px;
+	flex-grow:1;
+}
+.headbar ul{
+	list-style:none;
+	padding:8px;
+	margin:0 -5px;
+	text-decoration:none;
+}
+.headbar ul li{
+	display:inline-block;
+	margin:0 20px;
+}
+.headbar ul li a{
+	text-decoration:none;
+	color:#999;
+	display:block;
+}
+.headbar ul li:nth-child(1){
+     margin-left:0;
+}
+.headbar ul li a.active{
+	color:green;
+}
+.headbar ul li a:hover{
+	color:red;
+}
+.banner{
+	background-color:black;
+	padding:70px 90px;
+	text-align:center;
+	color:white;
+	margin:10px 5px;
+}
+.banner h3{
+	  font-size:20px;
+	  color:grey;
+}
+.banner h1{
+	   font-size:30px;
+	   padding:20px;
+}
+.banner p{
+	   font-size:20px;
+	   padding:15px;
+	   color:grey;
+}
+.banner button{
+	   border:1px solid white;
+	   padding:13px 30px;
+	   background:black;
+	   color:white;
+	   text-decoration:none;
+}
+.banner button a{
+	text-decoration:none;
+	color:white;
+}
+.skill{
+	display:flex;
+	padding:10px;
+}
+.skill p{
+	margin:0px 20px;
+}
+.menu ul li{
+	display:inline-block;
+	padding:10px;
+	margin:0 28px;
+}
+.menu ul li:nth-child(1){
+	 margin-left:0;
+}
+.head1{
+	 border-bottom:2px solid grey;
+	 border-top:2px solid grey;
+}
+.education{
+	display:flex;
+	padding:10px;
+}
+.education p{
+	margin:0px 20px;
+}
+.college{
+	padding:5px;
+	border-left:3px solid grey;
+	margin:20px;
+	height:100px;
+	line-height:1.2;
+	
+	
+}
+.box1{
+	width:140px;
+	height:110px;
+	background:#ccc;
+	padding:50px 30px;
+	margin:0px 10px;
+	font-size:25px;
+	text-align:center;
+	line-height:15px;
+}
+.institute{
+	  display:flex;
+	  justify-content:space-between;
+
+}
+.hsc{
+	padding:5px;
+	border-left:3px solid grey;
+	margin:20px;
+	height:100px;
+	line-height:1.2;
+}
+.box2{
+	width:140px;
+	height:110px;
+	background:#ccc;
+	padding:50px 30px;
+	margin:0px 10px;
+	font-size:25px;
+	text-align:center;
+	line-height:15px;
+}
+.institute2{
+	  display:flex;
+	  justify-content:space-between;
+	  
+
+}	 
+
+.sslc{
+	padding:5px;
+	border-left:3px solid grey;
+	margin:20px;
+}
+.box3{
+	width:140px;
+	height:110px;
+	background:#ccc;
+	padding:50px 30px;
+	margin:0px 10px;
+	font-size:25px;
+	text-align:center;
+	line-height:15px;
+}
+.institute3{
+	  display:flex;
+	  justify-content:space-between;
+
+}	
+.head2{
+     border-bottom:2px solid grey;
+}	 
+
+.project{
+	display:flex;
+	padding:10px;
+}
+.project p{
+	margin:0px 20px;
+}
+.prjt1{
+	padding:2px;
+	border-left:3px solid grey;
+	margin:20px;
+	height:125px;
+	line-height:1.2;
+}
+.prjt2{
+	padding:2px;
+	border-left:3px solid grey;
+	margin:20px;
+	height:107px;
+	line-height:1.2;
+}
+.cont{
+	padding:15px;
+}
+.cont p{
+	padding:5px;
+	padding:5px;
+}
+.icon{
+    padding:10px;	
+}
+.link{
+   padding:20px;
+} 
+.link a{
+	text-decoration:none;
+}
